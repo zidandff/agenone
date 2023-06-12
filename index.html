@@ -11,18 +11,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="font-inter">
-  <h1 class="text-display-lg">Hello world</h1>
-  <h1 class="text-display-sm">Hello world</h1>
-  <h1 class="text-6xl text-gray-900">Hello world</h1>
-
-  <div class="h-36 w-36 bg-white shadow-green-xs my-4 rounded-md "></div>
-
-  <div class="h-44 bg-green-gradient-50"></div>
-  <div class="h-44 bg-green-gradient-100"></div>
-  <div class="h-44 bg-green-gradient-200"></div>
-  <div class="h-44 bg-green-gradient-300"></div>
-  <div class="h-44 bg-green-gradient-400"></div>
-  <div class="h-44 bg-green-gradient-500"></div>
+<body class="font-inter bg-gray-900">
+  <header>
+    <div class="container py-6 flex justify-between items-center">
+      <img class="w-32" src="public/images/logo.svg" alt="">
+      <button class="w-8 h-8 border border-white rounded-lg flex justify-center items-center">
+        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1.50879H17M1 8.49133H17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>          
+      </button>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="container text-center py-10">
+      <span class="uppercase font-medium text-white tracking-widest text-2xs bg-white/20 px-3 py-2 rounded-full">Number One Creative Digital Agency</span>
+      <h1 class="text-white text-5xl font-bold mt-3"><span class="text-transparent bg-clip-text bg-green-gradient-500">Smart Choices</span> <br> For Your Business Growth</h1>
+      <p class="text-sm font-medium text-gray-200 mt-4">We're a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions.</p>
+      <button class="py-4 px-6 bg-green-gradient-500 rounded-full text-white font-medium flex items-center justify-between mx-auto mt-10">
+        <span class="mr-2">Contact Us</span>
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.5 9.0007H12.67L7.79 13.8807C7.4 14.2707 7.4 14.9107 7.79 15.3007C8.18 15.6907 8.81 15.6907 9.2 15.3007L15.79 8.7107C16.18 8.3207 16.18 7.6907 15.79 7.3007L9.21 0.700703C8.82 0.310703 8.19 0.310703 7.8 0.700703C7.41 1.0907 7.41 1.7207 7.8 2.1107L12.67 7.0007H1.5C0.95 7.0007 0.5 7.4507 0.5 8.0007C0.5 8.5507 0.95 9.0007 1.5 9.0007Z" fill="white"/>
+        </svg>
+      </button>
+      <div class="bg-green-gradient-500 rounded-2xl mt-14 py-4 px-8 pb-14 text-white">
+        <h2 class="text-lg font-semibold">Benefits of <br> improving your business</h2>
+        <div class="mt-10">
+          <img class="mx-auto mb-2" src="public/images/expand-icon.svg" alt="">
+          <h3 class="text-2xl font-medium">Expanding the Market</h3>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

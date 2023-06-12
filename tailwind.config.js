@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: '24px'
+    },
     fontSize: {
       'display-lg' : ['72px', '76px'],
       'display-sm' : ['48px', {lineHeight: '52px', letterSpacing: '-0.02em'}],
@@ -14,7 +18,8 @@ module.exports = {
       'lg' : ['18px', '28px'],
       'md' : ['16px', '24px'],
       'sm' : ['14px', '20px'],
-      'xs' : ['12px', '18px']
+      'xs' : ['12px', '18px'],
+      '2xs' : ['10px', '18px']
     },
     boxShadow: {
       xs: '0px 1px 2px rgba(25, 17, 39, 0.05)',
