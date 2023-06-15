@@ -7,9 +7,11 @@
   <title>Agenone - #1 CREATIVE DIGITAL AGENCY</title>
 
   <link rel="stylesheet" href="public/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body class="font-inter bg-gray-900">
   <header>
@@ -35,12 +37,45 @@
       </button>
       <div class="bg-green-gradient-500 rounded-2xl mt-14 py-4 px-8 pb-14 text-white">
         <h2 class="text-lg font-semibold">Benefits of <br> improving your business</h2>
-        <div class="mt-10">
-          <img class="mx-auto mb-2" src="public/images/expand-icon.svg" alt="">
-          <h3 class="text-2xl font-medium">Expanding the Market</h3>
+
+        <div class="swiper mt-10 pb-10">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <img class="mx-auto mb-2" src="public/images/expand-icon.svg" alt="">
+                <h3 class="text-2xl font-medium">Expanding the Market</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <img class="mx-auto mb-2" src="public/images/cost-icon.svg" alt="">
+                <h3 class="text-2xl font-medium">Cost-Effective</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <img class="mx-auto mb-2" src="public/images/professional-icon.svg" alt="">
+                <h3 class="text-2xl font-medium">More Professional</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <img class="mx-auto mb-2" src="public/images/attrack-icon.svg" alt="">
+                <h3 class="text-2xl font-medium">Attract Client</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination -bottom-0 "></div> 
         </div>
+
       </div>
     </section>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="public/js/main.js"></script>
 </body>
 </html>
