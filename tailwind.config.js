@@ -53,7 +53,8 @@ module.exports = {
           700: '#3D414C',
           800: '#181D2A',
           900: '#0C111F',
-        }
+        },
+        beige: '#F8F8F8'
       },
       backgroundImage: {
         'green-gradient-50': 'linear-gradient(279.69deg, rgba(0, 121, 109, 0.1) 0%, rgba(56, 198, 130, 0.1) 100%)',
